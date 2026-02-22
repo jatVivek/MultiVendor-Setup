@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenbrew - E-commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" onclick="app.router('home')" class="flex items-center gap-2">
+                <img src="/static/uploads/logo.svg" alt="Logo" class="h-8 w-8" onerror="this.style.display='none'">
+                <span class="text-xl font-bold text-yellow-600">Zenbrew</span>
+            </a>
+
+            <!-- Search & Location -->
+            <div class="hidden md:flex flex-1 mx-8 gap-4">
+                <button id="location-btn" onclick="app.enableLocation()" class="flex items-center text-sm text-gray-600 border px-3 rounded hover:bg-gray-50 whitespace-nowrap">
+                    <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    <span id="location-text">Enable Location</span>
+                </button>
+                <div class="flex-1 relative">
+                    <input type="text" placeholder="Search for products, brands and more" class="w-full border rounded-l px-4 py-2 bg-gray-50 focus:outline-none focus:bg-white focus:border-yellow-500">
+                    <button class="bg-yellow-100 px-4 py-2 rounded-r hover:bg-yellow-200 absolute right-0 top-0 h-full">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Icons -->
+            <div class="flex items-center space-x-6">
+                <!-- Profile -->
+                <div class="relative group cursor-pointer" id="profile-menu">
+                    <div class="flex flex-col items-center hover:text-yellow-600">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                        <span class="text-xs font-semibold">Profile</span>
+                    </div>
+                    <!-- Dropdown -->
+                    <div class="absolute right-0 top-full mt-2 w-48 bg-white shadow-xl rounded hidden group-hover:block border" id="auth-dropdown">
+                        <div class="p-4" id="auth-links">
+                            <h4 class="font-bold text-sm mb-1">Welcome</h4>
+                            <p class="text-xs text-gray-500 mb-3">To access account and manage orders</p>
+                            <button onclick="app.showModal('login')" class="w-full border border-gray-300 text-yellow-600 font-bold py-1 px-2 rounded hover:bg-gray-50">LOGIN / SIGNUP</button>
+                        </div>
+                        <div class="hidden border-t" id="user-links">
+                            <a href="#orders" onclick="app.router('orders')" class="block px-4 py-2 hover:bg-gray-100 text-sm">Orders</a>
+                            <a href="#wallet" onclick="app.router('wallet')" class="block px-4 py-2 hover:bg-gray-100 text-sm">Wallet</a>
+                            <a href="#" onclick="app.logout()" class="block px-4 py-2 hover:bg-gray-100 text-sm">Logout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cart -->
+                <a href="#cart" onclick="app.router('cart')" class="flex flex-col items-center hover:text-yellow-600 relative">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                    <span class="text-xs font-semibold">Bag</span>
+                    <span id="cart-count" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="app-container" class="min-h-screen pb-20">
+        <!-- Dynamic Content -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <h3 id="footer-brand" class="text-2xl font-bold mb-2">Zenbrew</h3>
+                <p class="text-gray-400">© <span id="year">2023</span> All rights reserved.</p>
+            </div>
+            <div class="flex space-x-6" id="footer-links">
+                <a href="#page/privacy-policy" onclick="app.router('page/privacy-policy')" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a>
+                <a href="#page/terms-conditions" onclick="app.router('page/terms-conditions')" class="text-gray-400 hover:text-white transition duration-300">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal-container" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onclick="app.hideModal()"></div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            <div id="modal-content" class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                <!-- Injected Form -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

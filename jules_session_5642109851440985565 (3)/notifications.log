@@ -1,0 +1,936 @@
+2026-02-21 12:58:34,472 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 12:58:34,472 - [33mPress CTRL+C to quit[0m
+2026-02-21 12:58:34,473 -  * Restarting with stat
+2026-02-21 12:58:35,658 -  * Debugger is active!
+2026-02-21 12:58:35,659 -  * Debugger PIN: 410-907-091
+2026-02-21 12:59:19,063 - 127.0.0.1 - - [21/Feb/2026 12:59:19] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 12:59:19,082 - 127.0.0.1 - - [21/Feb/2026 12:59:19] "GET /api/admin/delivery_boys HTTP/1.1" 200 -
+2026-02-21 12:59:19,099 - 127.0.0.1 - - [21/Feb/2026 12:59:19] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 12:59:19,107 - 127.0.0.1 - - [21/Feb/2026 12:59:19] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 13:00:19,457 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 13:00:19,457 - [33mPress CTRL+C to quit[0m
+2026-02-21 13:00:19,458 -  * Restarting with stat
+2026-02-21 13:00:20,188 -  * Debugger is active!
+2026-02-21 13:00:20,189 -  * Debugger PIN: 410-907-091
+2026-02-21 13:01:10,666 - 127.0.0.1 - - [21/Feb/2026 13:01:10] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:01:10,682 - 127.0.0.1 - - [21/Feb/2026 13:01:10] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:01:10,704 - SMS/Email to 1234567890: Your order(s) [8] have been placed successfully.
+2026-02-21 13:01:10,705 - 127.0.0.1 - - [21/Feb/2026 13:01:10] "[35m[1mPOST /api/vendor/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:01:10,711 - 127.0.0.1 - - [21/Feb/2026 13:01:10] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 13:02:51,991 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 13:02:51,991 - [33mPress CTRL+C to quit[0m
+2026-02-21 13:02:51,992 -  * Restarting with stat
+2026-02-21 13:02:52,719 -  * Debugger is active!
+2026-02-21 13:02:52,719 -  * Debugger PIN: 410-907-091
+2026-02-21 13:03:11,161 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:03:11,175 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "[31m[1mPOST /api/customer/register HTTP/1.1[0m" 400 -
+2026-02-21 13:03:11,310 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:03:11,318 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "[31m[1mPOST /api/vendor/register HTTP/1.1[0m" 400 -
+2026-02-21 13:03:11,453 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:03:11,461 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "[31m[1mPOST /api/delivery/register HTTP/1.1[0m" 400 -
+2026-02-21 13:03:11,596 - 127.0.0.1 - - [21/Feb/2026 13:03:11] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 13:03:14,204 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:03:14,212 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 13:03:14,228 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:03:14,234 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 13:03:14,245 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "PUT /api/products/10 HTTP/1.1" 200 -
+2026-02-21 13:03:14,254 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "DELETE /api/products/10 HTTP/1.1" 200 -
+2026-02-21 13:03:14,259 - 127.0.0.1 - - [21/Feb/2026 13:03:14] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 13:03:16,917 - 127.0.0.1 - - [21/Feb/2026 13:03:16] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:03:16,927 - 127.0.0.1 - - [21/Feb/2026 13:03:16] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:03:17,227 - 127.0.0.1 - - [21/Feb/2026 13:03:17] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:03:17,246 - SMS/Email to 1234567890: Your order(s) [9] have been placed successfully.
+2026-02-21 13:03:17,246 - 127.0.0.1 - - [21/Feb/2026 13:03:17] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:03:17,253 - 127.0.0.1 - - [21/Feb/2026 13:03:17] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 13:03:17,257 - 127.0.0.1 - - [21/Feb/2026 13:03:17] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 13:03:17,269 - SMS/Email to 1234567890: Your order(s) [10] have been placed successfully.
+2026-02-21 13:03:17,269 - 127.0.0.1 - - [21/Feb/2026 13:03:17] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:03:17,407 - 127.0.0.1 - - [21/Feb/2026 13:03:17] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:03:57,895 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 13:03:57,896 - [33mPress CTRL+C to quit[0m
+2026-02-21 13:03:57,896 -  * Restarting with stat
+2026-02-21 13:03:58,621 -  * Debugger is active!
+2026-02-21 13:03:58,622 -  * Debugger PIN: 410-907-091
+2026-02-21 13:04:38,771 - 127.0.0.1 - - [21/Feb/2026 13:04:38] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:04:38,963 - 127.0.0.1 - - [21/Feb/2026 13:04:38] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-21 13:04:39,104 - 127.0.0.1 - - [21/Feb/2026 13:04:39] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:04:39,247 - 127.0.0.1 - - [21/Feb/2026 13:04:39] "[35m[1mPOST /api/vendor/register HTTP/1.1[0m" 201 -
+2026-02-21 13:04:39,385 - 127.0.0.1 - - [21/Feb/2026 13:04:39] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:04:39,528 - 127.0.0.1 - - [21/Feb/2026 13:04:39] "[35m[1mPOST /api/delivery/register HTTP/1.1[0m" 201 -
+2026-02-21 13:04:39,666 - 127.0.0.1 - - [21/Feb/2026 13:04:39] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 13:04:42,228 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:04:42,235 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 13:04:42,247 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:04:42,253 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 13:04:42,265 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "PUT /api/products/3 HTTP/1.1" 200 -
+2026-02-21 13:04:42,273 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "DELETE /api/products/3 HTTP/1.1" 200 -
+2026-02-21 13:04:42,278 - 127.0.0.1 - - [21/Feb/2026 13:04:42] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 13:04:44,863 - 127.0.0.1 - - [21/Feb/2026 13:04:44] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:04:44,873 - 127.0.0.1 - - [21/Feb/2026 13:04:44] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:04:45,010 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:04:45,028 - SMS/Email to 1234567890: Your order(s) [1] have been placed successfully.
+2026-02-21 13:04:45,029 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:04:45,035 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 13:04:45,039 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 13:04:45,051 - SMS/Email to 1234567890: Your order(s) [2] have been placed successfully.
+2026-02-21 13:04:45,051 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:04:45,190 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:04:45,197 - 127.0.0.1 - - [21/Feb/2026 13:04:45] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-21 13:04:47,769 - 127.0.0.1 - - [21/Feb/2026 13:04:47] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:04:47,907 - 127.0.0.1 - - [21/Feb/2026 13:04:47] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 13:04:48,069 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:04:48,210 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:04:48,219 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:04:48,229 - SMS/Email to 1234567890: Your order(s) [3] have been placed successfully.
+2026-02-21 13:04:48,230 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:04:48,235 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 13:04:48,246 - SMS/Email to 1234567890: Your order #3 status has been updated to Accepted.
+2026-02-21 13:04:48,247 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-21 13:04:48,257 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "PUT /api/orders/3/assign HTTP/1.1" 200 -
+2026-02-21 13:04:48,264 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/delivery/orders HTTP/1.1" 200 -
+2026-02-21 13:04:48,272 - SMS/Email to 1234567890: Your order #3 status has been updated to Picked Up.
+2026-02-21 13:04:48,273 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-21 13:04:48,278 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/admin/orders HTTP/1.1" 200 -
+2026-02-21 13:04:48,850 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:04:48,861 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-21 13:04:48,865 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/settings HTTP/1.1" 200 -
+2026-02-21 13:04:48,874 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-21 13:04:48,879 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/settings HTTP/1.1" 200 -
+2026-02-21 13:04:48,887 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:04:48,892 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 13:04:48,901 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "PUT /api/products/5 HTTP/1.1" 200 -
+2026-02-21 13:04:48,906 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 13:04:48,913 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "DELETE /api/products/5 HTTP/1.1" 200 -
+2026-02-21 13:04:48,920 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/admin/products HTTP/1.1" 200 -
+2026-02-21 13:04:48,931 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "[35m[1mPOST /api/blogs HTTP/1.1[0m" 201 -
+2026-02-21 13:04:48,937 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "GET /api/blogs HTTP/1.1" 200 -
+2026-02-21 13:04:48,945 - 127.0.0.1 - - [21/Feb/2026 13:04:48] "DELETE /api/blogs/3 HTTP/1.1" 200 -
+2026-02-21 13:04:51,518 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:04:51,523 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "[31m[1mPOST /api/products HTTP/1.1[0m" 403 -
+2026-02-21 13:04:51,661 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:04:51,670 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:04:51,674 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "[31m[1mPUT /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-21 13:04:51,679 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "[31m[1mDELETE /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-21 13:04:51,821 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 13:04:51,832 - SMS/Email to 1234567890: Your order(s) [4] have been placed successfully.
+2026-02-21 13:04:51,833 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:04:51,842 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "PUT /api/orders/4/assign HTTP/1.1" 200 -
+2026-02-21 13:04:51,846 - 127.0.0.1 - - [21/Feb/2026 13:04:51] "[31m[1mPUT /api/orders/4/status HTTP/1.1[0m" 400 -
+2026-02-21 13:04:54,447 - 127.0.0.1 - - [21/Feb/2026 13:04:54] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:04:54,455 - 127.0.0.1 - - [21/Feb/2026 13:04:54] "GET /api/areas HTTP/1.1" 200 -
+2026-02-21 13:04:54,464 - 127.0.0.1 - - [21/Feb/2026 13:04:54] "[35m[1mPOST /api/areas HTTP/1.1[0m" 201 -
+2026-02-21 13:04:54,473 - 127.0.0.1 - - [21/Feb/2026 13:04:54] "PUT /api/areas/3 HTTP/1.1" 200 -
+2026-02-21 13:04:54,480 - 127.0.0.1 - - [21/Feb/2026 13:04:54] "DELETE /api/areas/3 HTTP/1.1" 200 -
+2026-02-21 13:04:57,049 - 127.0.0.1 - - [21/Feb/2026 13:04:57] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:04:57,057 - 127.0.0.1 - - [21/Feb/2026 13:04:57] "GET /api/banners HTTP/1.1" 200 -
+2026-02-21 13:04:57,063 - 127.0.0.1 - - [21/Feb/2026 13:04:57] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-21 13:04:57,073 - 127.0.0.1 - - [21/Feb/2026 13:04:57] "[35m[1mPOST /api/banners HTTP/1.1[0m" 201 -
+2026-02-21 13:04:57,082 - 127.0.0.1 - - [21/Feb/2026 13:04:57] "DELETE /api/banners/3 HTTP/1.1" 200 -
+2026-02-21 13:04:59,532 - 127.0.0.1 - - [21/Feb/2026 13:04:59] "GET /api/products/nearby?lat=40.7128&long=-74.0060&radius=1 HTTP/1.1" 200 -
+2026-02-21 13:04:59,540 - 127.0.0.1 - - [21/Feb/2026 13:04:59] "GET /api/products/nearby?lat=40.7138&long=-74.0070&radius=1 HTTP/1.1" 200 -
+2026-02-21 13:04:59,546 - 127.0.0.1 - - [21/Feb/2026 13:04:59] "GET /api/products/nearby?lat=34.0522&long=-118.2437&radius=10 HTTP/1.1" 200 -
+2026-02-21 13:05:02,127 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:05:02,267 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:05:02,276 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:05:02,286 - SMS/Email to 1234567890: Your order(s) [5] have been placed successfully.
+2026-02-21 13:05:02,287 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:05:02,302 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "GET /api/orders/5/invoice HTTP/1.1" 200 -
+2026-02-21 13:05:02,443 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-21 13:05:02,724 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:05:02,730 - 127.0.0.1 - - [21/Feb/2026 13:05:02] "[31m[1mGET /api/orders/5/invoice HTTP/1.1[0m" 403 -
+2026-02-21 13:05:05,298 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:05:05,442 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:05:05,578 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:05:05,590 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "[35m[1mPOST /api/offers HTTP/1.1[0m" 201 -
+2026-02-21 13:05:05,598 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:05:05,610 - SMS/Email to 1234567890: Your order(s) [6] have been placed successfully.
+2026-02-21 13:05:05,610 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:05:05,615 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-21 13:05:05,621 - 127.0.0.1 - - [21/Feb/2026 13:05:05] "[31m[1mPOST /api/orders HTTP/1.1[0m" 400 -
+2026-02-21 13:05:08,191 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:05:08,335 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:05:08,472 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 13:05:08,481 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:05:08,488 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "[31m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 403 -
+2026-02-21 13:05:08,499 - SMS/Email to 1234567890: Your order(s) [7] have been placed successfully.
+2026-02-21 13:05:08,499 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:05:08,508 - SMS/Email to 1234567890: Your order #7 status has been updated to Accepted.
+2026-02-21 13:05:08,509 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-21 13:05:08,646 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 13:05:08,656 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "PUT /api/orders/7/assign HTTP/1.1" 200 -
+2026-02-21 13:05:08,664 - SMS/Email to 1234567890: Your order #7 status has been updated to Delivered.
+2026-02-21 13:05:08,665 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-21 13:05:08,678 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "[35m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 201 -
+2026-02-21 13:05:08,683 - 127.0.0.1 - - [21/Feb/2026 13:05:08] "GET /api/products/8/reviews HTTP/1.1" 200 -
+2026-02-21 13:05:11,251 - 127.0.0.1 - - [21/Feb/2026 13:05:11] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 13:05:11,390 - 127.0.0.1 - - [21/Feb/2026 13:05:11] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:05:11,400 - 127.0.0.1 - - [21/Feb/2026 13:05:11] "PUT /api/customer/profile HTTP/1.1" 200 -
+2026-02-21 13:05:11,410 - 127.0.0.1 - - [21/Feb/2026 13:05:11] "PUT /api/vendor/profile HTTP/1.1" 200 -
+2026-02-21 13:05:13,984 - 127.0.0.1 - - [21/Feb/2026 13:05:13] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:05:14,007 - 127.0.0.1 - - [21/Feb/2026 13:05:14] "GET /api/admin/dashboard HTTP/1.1" 200 -
+2026-02-21 13:05:16,576 - 127.0.0.1 - - [21/Feb/2026 13:05:16] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:05:16,582 - 127.0.0.1 - - [21/Feb/2026 13:05:16] "GET /api/admin/customers HTTP/1.1" 200 -
+2026-02-21 13:05:16,592 - 127.0.0.1 - - [21/Feb/2026 13:05:16] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-21 13:05:16,600 - 127.0.0.1 - - [21/Feb/2026 13:05:16] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-21 13:05:19,174 - 127.0.0.1 - - [21/Feb/2026 13:05:19] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:05:19,180 - 127.0.0.1 - - [21/Feb/2026 13:05:19] "GET /api/admin/vendors HTTP/1.1" 200 -
+2026-02-21 13:05:19,190 - 127.0.0.1 - - [21/Feb/2026 13:05:19] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-21 13:05:19,197 - 127.0.0.1 - - [21/Feb/2026 13:05:19] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-21 13:05:21,777 - 127.0.0.1 - - [21/Feb/2026 13:05:21] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:05:21,785 - 127.0.0.1 - - [21/Feb/2026 13:05:21] "GET /api/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-21 13:05:21,795 - 127.0.0.1 - - [21/Feb/2026 13:05:21] "PUT /api/admin/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-21 13:05:21,800 - 127.0.0.1 - - [21/Feb/2026 13:05:21] "GET /api/admin/pages HTTP/1.1" 200 -
+2026-02-21 13:05:24,373 - 127.0.0.1 - - [21/Feb/2026 13:05:24] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 13:05:24,379 - 127.0.0.1 - - [21/Feb/2026 13:05:24] "GET /api/admin/delivery_boys HTTP/1.1" 200 -
+2026-02-21 13:05:24,389 - 127.0.0.1 - - [21/Feb/2026 13:05:24] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 13:05:24,397 - 127.0.0.1 - - [21/Feb/2026 13:05:24] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 13:05:26,967 - 127.0.0.1 - - [21/Feb/2026 13:05:26] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 13:05:26,976 - 127.0.0.1 - - [21/Feb/2026 13:05:26] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 13:05:26,989 - SMS/Email to 1234567890: Your order(s) [8] have been placed successfully.
+2026-02-21 13:05:26,989 - 127.0.0.1 - - [21/Feb/2026 13:05:26] "[35m[1mPOST /api/vendor/orders HTTP/1.1[0m" 201 -
+2026-02-21 13:05:26,994 - 127.0.0.1 - - [21/Feb/2026 13:05:26] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 14:06:01,959 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 14:06:01,960 - [33mPress CTRL+C to quit[0m
+2026-02-21 14:06:01,961 -  * Restarting with stat
+2026-02-21 14:06:03,139 -  * Debugger is active!
+2026-02-21 14:06:03,141 -  * Debugger PIN: 410-907-091
+2026-02-21 14:06:46,827 - 127.0.0.1 - - [21/Feb/2026 14:06:46] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:06:46,842 - 127.0.0.1 - - [21/Feb/2026 14:06:46] "GET /api/admin/payments HTTP/1.1" 200 -
+2026-02-21 14:06:46,847 - BROADCAST (all): System Maintenance
+2026-02-21 14:06:46,848 - 127.0.0.1 - - [21/Feb/2026 14:06:46] "POST /api/admin/notifications HTTP/1.1" 200 -
+2026-02-21 14:06:47,201 - 127.0.0.1 - - [21/Feb/2026 14:06:47] "[35m[1mPOST /api/admin/users HTTP/1.1[0m" 201 -
+2026-02-21 14:08:24,623 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 14:08:24,623 - [33mPress CTRL+C to quit[0m
+2026-02-21 14:08:24,624 -  * Restarting with stat
+2026-02-21 14:08:25,320 -  * Debugger is active!
+2026-02-21 14:08:25,321 -  * Debugger PIN: 410-907-091
+2026-02-21 14:09:01,907 - 127.0.0.1 - - [21/Feb/2026 14:09:01] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:09:01,923 - 127.0.0.1 - - [21/Feb/2026 14:09:01] "[31m[1mPOST /api/customer/register HTTP/1.1[0m" 400 -
+2026-02-21 14:09:02,059 - 127.0.0.1 - - [21/Feb/2026 14:09:02] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:09:02,067 - 127.0.0.1 - - [21/Feb/2026 14:09:02] "[31m[1mPOST /api/vendor/register HTTP/1.1[0m" 400 -
+2026-02-21 14:09:02,200 - 127.0.0.1 - - [21/Feb/2026 14:09:02] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:09:02,208 - 127.0.0.1 - - [21/Feb/2026 14:09:02] "[31m[1mPOST /api/delivery/register HTTP/1.1[0m" 400 -
+2026-02-21 14:09:02,341 - 127.0.0.1 - - [21/Feb/2026 14:09:02] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 14:09:04,897 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:09:04,906 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 14:09:04,919 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:09:04,925 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 14:09:04,936 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "PUT /api/products/10 HTTP/1.1" 200 -
+2026-02-21 14:09:04,943 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "DELETE /api/products/10 HTTP/1.1" 200 -
+2026-02-21 14:09:04,948 - 127.0.0.1 - - [21/Feb/2026 14:09:04] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 14:09:07,504 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:09:07,514 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:09:07,646 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:09:07,665 - SMS/Email to 1234567890: Your order(s) [9] have been placed successfully.
+2026-02-21 14:09:07,665 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:09:07,671 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 14:09:07,676 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 14:09:07,687 - SMS/Email to 1234567890: Your order(s) [10] have been placed successfully.
+2026-02-21 14:09:07,688 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:09:07,821 - 127.0.0.1 - - [21/Feb/2026 14:09:07] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:09:39,306 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 14:09:39,306 - [33mPress CTRL+C to quit[0m
+2026-02-21 14:09:39,307 -  * Restarting with stat
+2026-02-21 14:09:40,003 -  * Debugger is active!
+2026-02-21 14:09:40,004 -  * Debugger PIN: 410-907-091
+2026-02-21 14:10:33,204 - 127.0.0.1 - - [21/Feb/2026 14:10:33] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:10:33,347 - 127.0.0.1 - - [21/Feb/2026 14:10:33] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-21 14:10:33,482 - 127.0.0.1 - - [21/Feb/2026 14:10:33] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:33,667 - 127.0.0.1 - - [21/Feb/2026 14:10:33] "[35m[1mPOST /api/vendor/register HTTP/1.1[0m" 201 -
+2026-02-21 14:10:33,822 - 127.0.0.1 - - [21/Feb/2026 14:10:33] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:33,967 - 127.0.0.1 - - [21/Feb/2026 14:10:33] "[35m[1mPOST /api/delivery/register HTTP/1.1[0m" 201 -
+2026-02-21 14:10:34,106 - 127.0.0.1 - - [21/Feb/2026 14:10:34] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 14:10:36,842 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:36,850 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 14:10:36,863 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:36,868 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 14:10:36,880 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "PUT /api/products/3 HTTP/1.1" 200 -
+2026-02-21 14:10:36,888 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "DELETE /api/products/3 HTTP/1.1" 200 -
+2026-02-21 14:10:36,893 - 127.0.0.1 - - [21/Feb/2026 14:10:36] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 14:10:39,455 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:39,465 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:39,696 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:39,712 - SMS/Email to 1234567890: Your order(s) [1] have been placed successfully.
+2026-02-21 14:10:39,713 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:10:39,718 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 14:10:39,723 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 14:10:39,734 - SMS/Email to 1234567890: Your order(s) [2] have been placed successfully.
+2026-02-21 14:10:39,734 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:10:39,869 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:39,875 - 127.0.0.1 - - [21/Feb/2026 14:10:39] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-21 14:10:42,437 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:42,576 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 14:10:42,708 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:42,840 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:10:42,849 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:42,859 - SMS/Email to 1234567890: Your order(s) [3] have been placed successfully.
+2026-02-21 14:10:42,860 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:10:42,865 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 14:10:42,876 - SMS/Email to 1234567890: Your order #3 status has been updated to Accepted.
+2026-02-21 14:10:42,876 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-21 14:10:42,885 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "PUT /api/orders/3/assign HTTP/1.1" 200 -
+2026-02-21 14:10:42,890 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "GET /api/delivery/orders HTTP/1.1" 200 -
+2026-02-21 14:10:42,898 - SMS/Email to 1234567890: Your order #3 status has been updated to Picked Up.
+2026-02-21 14:10:42,899 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-21 14:10:42,903 - 127.0.0.1 - - [21/Feb/2026 14:10:42] "GET /api/admin/orders HTTP/1.1" 200 -
+2026-02-21 14:10:43,455 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:10:43,465 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-21 14:10:43,469 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "GET /api/settings HTTP/1.1" 200 -
+2026-02-21 14:10:43,477 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-21 14:10:43,480 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "GET /api/settings HTTP/1.1" 200 -
+2026-02-21 14:10:43,487 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:43,491 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 14:10:43,500 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "PUT /api/products/5 HTTP/1.1" 200 -
+2026-02-21 14:10:43,504 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 14:10:43,510 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "DELETE /api/products/5 HTTP/1.1" 200 -
+2026-02-21 14:10:43,515 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "GET /api/admin/products HTTP/1.1" 200 -
+2026-02-21 14:10:43,524 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "[35m[1mPOST /api/blogs HTTP/1.1[0m" 201 -
+2026-02-21 14:10:43,528 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "GET /api/blogs HTTP/1.1" 200 -
+2026-02-21 14:10:43,535 - 127.0.0.1 - - [21/Feb/2026 14:10:43] "DELETE /api/blogs/3 HTTP/1.1" 200 -
+2026-02-21 14:10:46,092 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:46,097 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "[31m[1mPOST /api/products HTTP/1.1[0m" 403 -
+2026-02-21 14:10:46,231 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:46,240 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:46,244 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "[31m[1mPUT /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-21 14:10:46,248 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "[31m[1mDELETE /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-21 14:10:46,382 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 14:10:46,392 - SMS/Email to 1234567890: Your order(s) [4] have been placed successfully.
+2026-02-21 14:10:46,393 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:10:46,401 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "PUT /api/orders/4/assign HTTP/1.1" 200 -
+2026-02-21 14:10:46,405 - 127.0.0.1 - - [21/Feb/2026 14:10:46] "[31m[1mPUT /api/orders/4/status HTTP/1.1[0m" 400 -
+2026-02-21 14:10:48,951 - 127.0.0.1 - - [21/Feb/2026 14:10:48] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:10:48,958 - 127.0.0.1 - - [21/Feb/2026 14:10:48] "GET /api/areas HTTP/1.1" 200 -
+2026-02-21 14:10:48,966 - 127.0.0.1 - - [21/Feb/2026 14:10:48] "[35m[1mPOST /api/areas HTTP/1.1[0m" 201 -
+2026-02-21 14:10:48,975 - 127.0.0.1 - - [21/Feb/2026 14:10:48] "PUT /api/areas/3 HTTP/1.1" 200 -
+2026-02-21 14:10:48,981 - 127.0.0.1 - - [21/Feb/2026 14:10:48] "DELETE /api/areas/3 HTTP/1.1" 200 -
+2026-02-21 14:10:51,528 - 127.0.0.1 - - [21/Feb/2026 14:10:51] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:10:51,535 - 127.0.0.1 - - [21/Feb/2026 14:10:51] "GET /api/banners HTTP/1.1" 200 -
+2026-02-21 14:10:51,540 - 127.0.0.1 - - [21/Feb/2026 14:10:51] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-21 14:10:51,548 - 127.0.0.1 - - [21/Feb/2026 14:10:51] "[35m[1mPOST /api/banners HTTP/1.1[0m" 201 -
+2026-02-21 14:10:51,556 - 127.0.0.1 - - [21/Feb/2026 14:10:51] "DELETE /api/banners/3 HTTP/1.1" 200 -
+2026-02-21 14:10:53,980 - 127.0.0.1 - - [21/Feb/2026 14:10:53] "GET /api/products/nearby?lat=40.7128&long=-74.0060&radius=1 HTTP/1.1" 200 -
+2026-02-21 14:10:53,987 - 127.0.0.1 - - [21/Feb/2026 14:10:53] "GET /api/products/nearby?lat=40.7138&long=-74.0070&radius=1 HTTP/1.1" 200 -
+2026-02-21 14:10:53,992 - 127.0.0.1 - - [21/Feb/2026 14:10:53] "GET /api/products/nearby?lat=34.0522&long=-118.2437&radius=10 HTTP/1.1" 200 -
+2026-02-21 14:10:56,543 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:56,676 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:56,684 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:56,694 - SMS/Email to 1234567890: Your order(s) [5] have been placed successfully.
+2026-02-21 14:10:56,695 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:10:56,709 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "GET /api/orders/5/invoice HTTP/1.1" 200 -
+2026-02-21 14:10:56,844 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-21 14:10:56,978 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:56,983 - 127.0.0.1 - - [21/Feb/2026 14:10:56] "[31m[1mGET /api/orders/5/invoice HTTP/1.1[0m" 403 -
+2026-02-21 14:10:59,531 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:10:59,673 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:10:59,806 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:10:59,818 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "[35m[1mPOST /api/offers HTTP/1.1[0m" 201 -
+2026-02-21 14:10:59,825 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:10:59,836 - SMS/Email to 1234567890: Your order(s) [6] have been placed successfully.
+2026-02-21 14:10:59,836 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:10:59,842 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-21 14:10:59,847 - 127.0.0.1 - - [21/Feb/2026 14:10:59] "[31m[1mPOST /api/orders HTTP/1.1[0m" 400 -
+2026-02-21 14:11:02,406 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:11:02,539 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:11:02,673 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 14:11:02,681 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:11:02,687 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "[31m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 403 -
+2026-02-21 14:11:02,697 - SMS/Email to 1234567890: Your order(s) [7] have been placed successfully.
+2026-02-21 14:11:02,697 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:11:02,704 - SMS/Email to 1234567890: Your order #7 status has been updated to Accepted.
+2026-02-21 14:11:02,705 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-21 14:11:02,836 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 14:11:02,845 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "PUT /api/orders/7/assign HTTP/1.1" 200 -
+2026-02-21 14:11:02,853 - SMS/Email to 1234567890: Your order #7 status has been updated to Delivered.
+2026-02-21 14:11:02,853 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-21 14:11:02,866 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "[35m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 201 -
+2026-02-21 14:11:02,871 - 127.0.0.1 - - [21/Feb/2026 14:11:02] "GET /api/products/8/reviews HTTP/1.1" 200 -
+2026-02-21 14:11:05,416 - 127.0.0.1 - - [21/Feb/2026 14:11:05] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 14:11:05,551 - 127.0.0.1 - - [21/Feb/2026 14:11:05] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:11:05,561 - 127.0.0.1 - - [21/Feb/2026 14:11:05] "PUT /api/customer/profile HTTP/1.1" 200 -
+2026-02-21 14:11:05,571 - 127.0.0.1 - - [21/Feb/2026 14:11:05] "PUT /api/vendor/profile HTTP/1.1" 200 -
+2026-02-21 14:11:08,120 - 127.0.0.1 - - [21/Feb/2026 14:11:08] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:11:08,141 - 127.0.0.1 - - [21/Feb/2026 14:11:08] "GET /api/admin/dashboard HTTP/1.1" 200 -
+2026-02-21 14:11:10,688 - 127.0.0.1 - - [21/Feb/2026 14:11:10] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:11:10,695 - 127.0.0.1 - - [21/Feb/2026 14:11:10] "GET /api/admin/customers HTTP/1.1" 200 -
+2026-02-21 14:11:10,704 - 127.0.0.1 - - [21/Feb/2026 14:11:10] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-21 14:11:10,711 - 127.0.0.1 - - [21/Feb/2026 14:11:10] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-21 14:11:13,260 - 127.0.0.1 - - [21/Feb/2026 14:11:13] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:11:13,266 - 127.0.0.1 - - [21/Feb/2026 14:11:13] "GET /api/admin/vendors HTTP/1.1" 200 -
+2026-02-21 14:11:13,275 - 127.0.0.1 - - [21/Feb/2026 14:11:13] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-21 14:11:13,282 - 127.0.0.1 - - [21/Feb/2026 14:11:13] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-21 14:11:15,835 - 127.0.0.1 - - [21/Feb/2026 14:11:15] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:11:15,842 - 127.0.0.1 - - [21/Feb/2026 14:11:15] "GET /api/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-21 14:11:15,852 - 127.0.0.1 - - [21/Feb/2026 14:11:15] "PUT /api/admin/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-21 14:11:15,857 - 127.0.0.1 - - [21/Feb/2026 14:11:15] "GET /api/admin/pages HTTP/1.1" 200 -
+2026-02-21 14:11:18,407 - 127.0.0.1 - - [21/Feb/2026 14:11:18] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:11:18,414 - 127.0.0.1 - - [21/Feb/2026 14:11:18] "GET /api/admin/delivery_boys HTTP/1.1" 200 -
+2026-02-21 14:11:18,424 - 127.0.0.1 - - [21/Feb/2026 14:11:18] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 14:11:18,432 - 127.0.0.1 - - [21/Feb/2026 14:11:18] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 14:11:20,982 - 127.0.0.1 - - [21/Feb/2026 14:11:20] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 14:11:20,992 - 127.0.0.1 - - [21/Feb/2026 14:11:20] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 14:11:21,004 - SMS/Email to 1234567890: Your order(s) [8] have been placed successfully.
+2026-02-21 14:11:21,004 - 127.0.0.1 - - [21/Feb/2026 14:11:21] "[35m[1mPOST /api/vendor/orders HTTP/1.1[0m" 201 -
+2026-02-21 14:11:21,009 - 127.0.0.1 - - [21/Feb/2026 14:11:21] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 14:11:23,564 - 127.0.0.1 - - [21/Feb/2026 14:11:23] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 14:11:23,570 - 127.0.0.1 - - [21/Feb/2026 14:11:23] "GET /api/admin/payments HTTP/1.1" 200 -
+2026-02-21 14:11:23,574 - BROADCAST (all): System Maintenance
+2026-02-21 14:11:23,574 - 127.0.0.1 - - [21/Feb/2026 14:11:23] "POST /api/admin/notifications HTTP/1.1" 200 -
+2026-02-21 14:11:23,710 - 127.0.0.1 - - [21/Feb/2026 14:11:23] "[35m[1mPOST /api/admin/users HTTP/1.1[0m" 201 -
+2026-02-21 18:31:32,967 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 18:31:32,968 - [33mPress CTRL+C to quit[0m
+2026-02-21 18:31:32,969 -  * Restarting with stat
+2026-02-21 18:31:34,118 -  * Debugger is active!
+2026-02-21 18:31:34,120 -  * Debugger PIN: 410-907-091
+2026-02-21 18:32:19,323 - 127.0.0.1 - - [21/Feb/2026 18:32:19] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:32:19,334 - 127.0.0.1 - - [21/Feb/2026 18:32:19] "GET /api/vendor/dashboard HTTP/1.1" 200 -
+2026-02-21 18:33:24,880 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 18:33:24,880 - [33mPress CTRL+C to quit[0m
+2026-02-21 18:33:24,880 -  * Restarting with stat
+2026-02-21 18:33:25,584 -  * Debugger is active!
+2026-02-21 18:33:25,584 -  * Debugger PIN: 410-907-091
+2026-02-21 18:34:13,310 - 127.0.0.1 - - [21/Feb/2026 18:34:13] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:34:13,324 - 127.0.0.1 - - [21/Feb/2026 18:34:13] "GET /api/vendor/orders/export HTTP/1.1" 200 -
+2026-02-21 18:34:13,329 - 127.0.0.1 - - [21/Feb/2026 18:34:13] "GET /api/vendor/transactions HTTP/1.1" 200 -
+2026-02-21 18:35:20,350 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 18:35:20,350 - [33mPress CTRL+C to quit[0m
+2026-02-21 18:35:20,350 -  * Restarting with stat
+2026-02-21 18:35:21,054 -  * Debugger is active!
+2026-02-21 18:35:21,055 -  * Debugger PIN: 410-907-091
+2026-02-21 18:36:14,030 - 127.0.0.1 - - [21/Feb/2026 18:36:14] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:36:14,084 - 127.0.0.1 - - [21/Feb/2026 18:36:14] "GET /api/vendor/invoices/bulk HTTP/1.1" 200 -
+2026-02-21 18:37:24,336 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 18:37:24,336 - [33mPress CTRL+C to quit[0m
+2026-02-21 18:37:24,337 -  * Restarting with stat
+2026-02-21 18:37:25,032 -  * Debugger is active!
+2026-02-21 18:37:25,032 -  * Debugger PIN: 410-907-091
+2026-02-21 18:38:10,848 - 127.0.0.1 - - [21/Feb/2026 18:38:10] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:38:10,858 - 127.0.0.1 - - [21/Feb/2026 18:38:10] "[31m[1mPOST /api/customer/register HTTP/1.1[0m" 400 -
+2026-02-21 18:38:11,156 - 127.0.0.1 - - [21/Feb/2026 18:38:11] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:38:11,178 - 127.0.0.1 - - [21/Feb/2026 18:38:11] "[31m[1mPOST /api/vendor/register HTTP/1.1[0m" 400 -
+2026-02-21 18:38:11,317 - 127.0.0.1 - - [21/Feb/2026 18:38:11] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:38:11,327 - 127.0.0.1 - - [21/Feb/2026 18:38:11] "[31m[1mPOST /api/delivery/register HTTP/1.1[0m" 400 -
+2026-02-21 18:38:11,467 - 127.0.0.1 - - [21/Feb/2026 18:38:11] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 18:38:14,148 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:38:14,156 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 18:38:14,170 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:38:14,176 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 18:38:14,187 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "PUT /api/products/10 HTTP/1.1" 200 -
+2026-02-21 18:38:14,196 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "DELETE /api/products/10 HTTP/1.1" 200 -
+2026-02-21 18:38:14,201 - 127.0.0.1 - - [21/Feb/2026 18:38:14] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 18:38:16,766 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:38:16,775 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:38:16,909 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:38:16,926 - SMS/Email to 1234567890: Your order(s) [9] have been placed successfully.
+2026-02-21 18:38:16,927 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:38:16,933 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 18:38:16,937 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 18:38:16,948 - SMS/Email to 1234567890: Your order(s) [10] have been placed successfully.
+2026-02-21 18:38:16,949 - 127.0.0.1 - - [21/Feb/2026 18:38:16] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:38:17,087 - 127.0.0.1 - - [21/Feb/2026 18:38:17] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:38:53,325 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 18:38:53,325 - [33mPress CTRL+C to quit[0m
+2026-02-21 18:38:53,326 -  * Restarting with stat
+2026-02-21 18:38:54,026 -  * Debugger is active!
+2026-02-21 18:38:54,026 -  * Debugger PIN: 410-907-091
+2026-02-21 18:39:38,243 - 127.0.0.1 - - [21/Feb/2026 18:39:38] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:39:38,389 - 127.0.0.1 - - [21/Feb/2026 18:39:38] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-21 18:39:38,527 - 127.0.0.1 - - [21/Feb/2026 18:39:38] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:39:38,675 - 127.0.0.1 - - [21/Feb/2026 18:39:38] "[35m[1mPOST /api/vendor/register HTTP/1.1[0m" 201 -
+2026-02-21 18:39:38,814 - 127.0.0.1 - - [21/Feb/2026 18:39:38] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:39:38,958 - 127.0.0.1 - - [21/Feb/2026 18:39:38] "[35m[1mPOST /api/delivery/register HTTP/1.1[0m" 201 -
+2026-02-21 18:39:39,096 - 127.0.0.1 - - [21/Feb/2026 18:39:39] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 18:39:41,658 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:39:41,665 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 18:39:41,677 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:39:41,682 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 18:39:41,693 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "PUT /api/products/3 HTTP/1.1" 200 -
+2026-02-21 18:39:41,701 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "DELETE /api/products/3 HTTP/1.1" 200 -
+2026-02-21 18:39:41,705 - 127.0.0.1 - - [21/Feb/2026 18:39:41] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 18:39:44,266 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:39:44,276 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:39:44,415 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:39:44,432 - SMS/Email to 1234567890: Your order(s) [1] have been placed successfully.
+2026-02-21 18:39:44,433 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:39:44,438 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 18:39:44,442 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-21 18:39:44,452 - SMS/Email to 1234567890: Your order(s) [2] have been placed successfully.
+2026-02-21 18:39:44,453 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:39:44,587 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:39:44,594 - 127.0.0.1 - - [21/Feb/2026 18:39:44] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-21 18:39:47,157 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:39:47,295 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 18:39:47,431 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:39:47,692 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:39:47,701 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:39:47,710 - SMS/Email to 1234567890: Your order(s) [3] have been placed successfully.
+2026-02-21 18:39:47,711 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:39:47,716 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 18:39:47,726 - SMS/Email to 1234567890: Your order #3 status has been updated to Accepted.
+2026-02-21 18:39:47,726 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-21 18:39:47,735 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "PUT /api/orders/3/assign HTTP/1.1" 200 -
+2026-02-21 18:39:47,740 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "GET /api/delivery/orders HTTP/1.1" 200 -
+2026-02-21 18:39:47,747 - SMS/Email to 1234567890: Your order #3 status has been updated to Picked Up.
+2026-02-21 18:39:47,748 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-21 18:39:47,752 - 127.0.0.1 - - [21/Feb/2026 18:39:47] "GET /api/admin/orders HTTP/1.1" 200 -
+2026-02-21 18:39:48,310 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:39:48,321 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-21 18:39:48,325 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "GET /api/settings HTTP/1.1" 200 -
+2026-02-21 18:39:48,335 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-21 18:39:48,339 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "GET /api/settings HTTP/1.1" 200 -
+2026-02-21 18:39:48,346 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:39:48,350 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 18:39:48,357 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "PUT /api/products/5 HTTP/1.1" 200 -
+2026-02-21 18:39:48,362 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 18:39:48,369 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "DELETE /api/products/5 HTTP/1.1" 200 -
+2026-02-21 18:39:48,373 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "GET /api/admin/products HTTP/1.1" 200 -
+2026-02-21 18:39:48,382 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "[35m[1mPOST /api/blogs HTTP/1.1[0m" 201 -
+2026-02-21 18:39:48,387 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "GET /api/blogs HTTP/1.1" 200 -
+2026-02-21 18:39:48,394 - 127.0.0.1 - - [21/Feb/2026 18:39:48] "DELETE /api/blogs/3 HTTP/1.1" 200 -
+2026-02-21 18:39:50,951 - 127.0.0.1 - - [21/Feb/2026 18:39:50] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:39:50,956 - 127.0.0.1 - - [21/Feb/2026 18:39:50] "[31m[1mPOST /api/products HTTP/1.1[0m" 403 -
+2026-02-21 18:39:51,162 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:39:51,171 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:39:51,175 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "[31m[1mPUT /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-21 18:39:51,179 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "[31m[1mDELETE /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-21 18:39:51,311 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 18:39:51,322 - SMS/Email to 1234567890: Your order(s) [4] have been placed successfully.
+2026-02-21 18:39:51,323 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:39:51,331 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "PUT /api/orders/4/assign HTTP/1.1" 200 -
+2026-02-21 18:39:51,335 - 127.0.0.1 - - [21/Feb/2026 18:39:51] "[31m[1mPUT /api/orders/4/status HTTP/1.1[0m" 400 -
+2026-02-21 18:39:53,887 - 127.0.0.1 - - [21/Feb/2026 18:39:53] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:39:53,894 - 127.0.0.1 - - [21/Feb/2026 18:39:53] "GET /api/areas HTTP/1.1" 200 -
+2026-02-21 18:39:53,902 - 127.0.0.1 - - [21/Feb/2026 18:39:53] "[35m[1mPOST /api/areas HTTP/1.1[0m" 201 -
+2026-02-21 18:39:53,910 - 127.0.0.1 - - [21/Feb/2026 18:39:53] "PUT /api/areas/3 HTTP/1.1" 200 -
+2026-02-21 18:39:53,916 - 127.0.0.1 - - [21/Feb/2026 18:39:53] "DELETE /api/areas/3 HTTP/1.1" 200 -
+2026-02-21 18:39:56,464 - 127.0.0.1 - - [21/Feb/2026 18:39:56] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:39:56,471 - 127.0.0.1 - - [21/Feb/2026 18:39:56] "GET /api/banners HTTP/1.1" 200 -
+2026-02-21 18:39:56,476 - 127.0.0.1 - - [21/Feb/2026 18:39:56] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-21 18:39:56,484 - 127.0.0.1 - - [21/Feb/2026 18:39:56] "[35m[1mPOST /api/banners HTTP/1.1[0m" 201 -
+2026-02-21 18:39:56,491 - 127.0.0.1 - - [21/Feb/2026 18:39:56] "DELETE /api/banners/3 HTTP/1.1" 200 -
+2026-02-21 18:39:58,928 - 127.0.0.1 - - [21/Feb/2026 18:39:58] "GET /api/products/nearby?lat=40.7128&long=-74.0060&radius=1 HTTP/1.1" 200 -
+2026-02-21 18:39:58,944 - 127.0.0.1 - - [21/Feb/2026 18:39:58] "GET /api/products/nearby?lat=40.7138&long=-74.0070&radius=1 HTTP/1.1" 200 -
+2026-02-21 18:39:58,955 - 127.0.0.1 - - [21/Feb/2026 18:39:58] "GET /api/products/nearby?lat=34.0522&long=-118.2437&radius=10 HTTP/1.1" 200 -
+2026-02-21 18:40:01,756 - 127.0.0.1 - - [21/Feb/2026 18:40:01] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:40:01,891 - 127.0.0.1 - - [21/Feb/2026 18:40:01] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:01,899 - 127.0.0.1 - - [21/Feb/2026 18:40:01] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:40:01,908 - SMS/Email to 1234567890: Your order(s) [5] have been placed successfully.
+2026-02-21 18:40:01,909 - 127.0.0.1 - - [21/Feb/2026 18:40:01] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:40:01,922 - 127.0.0.1 - - [21/Feb/2026 18:40:01] "GET /api/orders/5/invoice HTTP/1.1" 200 -
+2026-02-21 18:40:02,059 - 127.0.0.1 - - [21/Feb/2026 18:40:02] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-21 18:40:02,195 - 127.0.0.1 - - [21/Feb/2026 18:40:02] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:40:02,201 - 127.0.0.1 - - [21/Feb/2026 18:40:02] "[31m[1mGET /api/orders/5/invoice HTTP/1.1[0m" 403 -
+2026-02-21 18:40:04,758 - 127.0.0.1 - - [21/Feb/2026 18:40:04] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:04,898 - 127.0.0.1 - - [21/Feb/2026 18:40:04] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:40:05,037 - 127.0.0.1 - - [21/Feb/2026 18:40:05] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:05,047 - 127.0.0.1 - - [21/Feb/2026 18:40:05] "[35m[1mPOST /api/offers HTTP/1.1[0m" 201 -
+2026-02-21 18:40:05,055 - 127.0.0.1 - - [21/Feb/2026 18:40:05] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:40:05,067 - SMS/Email to 1234567890: Your order(s) [6] have been placed successfully.
+2026-02-21 18:40:05,068 - 127.0.0.1 - - [21/Feb/2026 18:40:05] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:40:05,072 - 127.0.0.1 - - [21/Feb/2026 18:40:05] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-21 18:40:05,077 - 127.0.0.1 - - [21/Feb/2026 18:40:05] "[31m[1mPOST /api/orders HTTP/1.1[0m" 400 -
+2026-02-21 18:40:07,638 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:40:07,773 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:07,908 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 18:40:07,917 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:40:07,922 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "[31m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 403 -
+2026-02-21 18:40:07,932 - SMS/Email to 1234567890: Your order(s) [7] have been placed successfully.
+2026-02-21 18:40:07,932 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:40:07,939 - SMS/Email to 1234567890: Your order #7 status has been updated to Accepted.
+2026-02-21 18:40:07,940 - 127.0.0.1 - - [21/Feb/2026 18:40:07] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-21 18:40:08,072 - 127.0.0.1 - - [21/Feb/2026 18:40:08] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-21 18:40:08,082 - 127.0.0.1 - - [21/Feb/2026 18:40:08] "PUT /api/orders/7/assign HTTP/1.1" 200 -
+2026-02-21 18:40:08,090 - SMS/Email to 1234567890: Your order #7 status has been updated to Delivered.
+2026-02-21 18:40:08,090 - 127.0.0.1 - - [21/Feb/2026 18:40:08] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-21 18:40:08,102 - 127.0.0.1 - - [21/Feb/2026 18:40:08] "[35m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 201 -
+2026-02-21 18:40:08,107 - 127.0.0.1 - - [21/Feb/2026 18:40:08] "GET /api/products/8/reviews HTTP/1.1" 200 -
+2026-02-21 18:40:10,665 - 127.0.0.1 - - [21/Feb/2026 18:40:10] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-21 18:40:10,800 - 127.0.0.1 - - [21/Feb/2026 18:40:10] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:10,810 - 127.0.0.1 - - [21/Feb/2026 18:40:10] "PUT /api/customer/profile HTTP/1.1" 200 -
+2026-02-21 18:40:10,819 - 127.0.0.1 - - [21/Feb/2026 18:40:10] "PUT /api/vendor/profile HTTP/1.1" 200 -
+2026-02-21 18:40:13,370 - 127.0.0.1 - - [21/Feb/2026 18:40:13] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:13,391 - 127.0.0.1 - - [21/Feb/2026 18:40:13] "GET /api/admin/dashboard HTTP/1.1" 200 -
+2026-02-21 18:40:15,945 - 127.0.0.1 - - [21/Feb/2026 18:40:15] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:15,951 - 127.0.0.1 - - [21/Feb/2026 18:40:15] "GET /api/admin/customers HTTP/1.1" 200 -
+2026-02-21 18:40:15,960 - 127.0.0.1 - - [21/Feb/2026 18:40:15] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-21 18:40:15,967 - 127.0.0.1 - - [21/Feb/2026 18:40:15] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-21 18:40:18,520 - 127.0.0.1 - - [21/Feb/2026 18:40:18] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:18,526 - 127.0.0.1 - - [21/Feb/2026 18:40:18] "GET /api/admin/vendors HTTP/1.1" 200 -
+2026-02-21 18:40:18,535 - 127.0.0.1 - - [21/Feb/2026 18:40:18] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-21 18:40:18,543 - 127.0.0.1 - - [21/Feb/2026 18:40:18] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-21 18:40:21,096 - 127.0.0.1 - - [21/Feb/2026 18:40:21] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:21,104 - 127.0.0.1 - - [21/Feb/2026 18:40:21] "GET /api/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-21 18:40:21,113 - 127.0.0.1 - - [21/Feb/2026 18:40:21] "PUT /api/admin/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-21 18:40:21,118 - 127.0.0.1 - - [21/Feb/2026 18:40:21] "GET /api/admin/pages HTTP/1.1" 200 -
+2026-02-21 18:40:23,684 - 127.0.0.1 - - [21/Feb/2026 18:40:23] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:23,690 - 127.0.0.1 - - [21/Feb/2026 18:40:23] "GET /api/admin/delivery_boys HTTP/1.1" 200 -
+2026-02-21 18:40:23,701 - 127.0.0.1 - - [21/Feb/2026 18:40:23] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 18:40:23,707 - 127.0.0.1 - - [21/Feb/2026 18:40:23] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-21 18:40:26,262 - 127.0.0.1 - - [21/Feb/2026 18:40:26] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:26,271 - 127.0.0.1 - - [21/Feb/2026 18:40:26] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-21 18:40:26,283 - SMS/Email to 1234567890: Your order(s) [8] have been placed successfully.
+2026-02-21 18:40:26,283 - 127.0.0.1 - - [21/Feb/2026 18:40:26] "[35m[1mPOST /api/vendor/orders HTTP/1.1[0m" 201 -
+2026-02-21 18:40:26,288 - 127.0.0.1 - - [21/Feb/2026 18:40:26] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-21 18:40:28,844 - 127.0.0.1 - - [21/Feb/2026 18:40:28] "POST /api/login HTTP/1.1" 200 -
+2026-02-21 18:40:28,850 - 127.0.0.1 - - [21/Feb/2026 18:40:28] "GET /api/admin/payments HTTP/1.1" 200 -
+2026-02-21 18:40:28,854 - BROADCAST (all): System Maintenance
+2026-02-21 18:40:28,854 - 127.0.0.1 - - [21/Feb/2026 18:40:28] "POST /api/admin/notifications HTTP/1.1" 200 -
+2026-02-21 18:40:28,992 - 127.0.0.1 - - [21/Feb/2026 18:40:28] "[35m[1mPOST /api/admin/users HTTP/1.1[0m" 201 -
+2026-02-21 18:40:31,549 - 127.0.0.1 - - [21/Feb/2026 18:40:31] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:31,555 - 127.0.0.1 - - [21/Feb/2026 18:40:31] "GET /api/vendor/dashboard HTTP/1.1" 200 -
+2026-02-21 18:40:34,108 - 127.0.0.1 - - [21/Feb/2026 18:40:34] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:34,115 - 127.0.0.1 - - [21/Feb/2026 18:40:34] "GET /api/vendor/orders/export HTTP/1.1" 200 -
+2026-02-21 18:40:34,121 - 127.0.0.1 - - [21/Feb/2026 18:40:34] "GET /api/vendor/transactions HTTP/1.1" 200 -
+2026-02-21 18:40:36,693 - 127.0.0.1 - - [21/Feb/2026 18:40:36] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-21 18:40:36,726 - 127.0.0.1 - - [21/Feb/2026 18:40:36] "GET /api/vendor/invoices/bulk HTTP/1.1" 200 -
+2026-02-21 19:02:16,413 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 19:02:16,414 - [33mPress CTRL+C to quit[0m
+2026-02-21 19:02:16,417 -  * Restarting with stat
+2026-02-21 19:02:17,765 -  * Debugger is active!
+2026-02-21 19:02:17,766 -  * Debugger PIN: 410-907-091
+2026-02-21 19:02:49,707 - 127.0.0.1 - - [21/Feb/2026 19:02:49] "GET / HTTP/1.1" 200 -
+2026-02-21 19:02:49,859 - 127.0.0.1 - - [21/Feb/2026 19:02:49] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-21 19:02:49,861 - 127.0.0.1 - - [21/Feb/2026 19:02:49] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-21 19:02:50,738 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-21 19:02:50,883 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-21 19:02:50,894 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 19:02:50,896 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 19:02:50,921 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "[33mGET /static/uploads/cat-snack.png HTTP/1.1[0m" 404 -
+2026-02-21 19:02:50,923 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "[33mGET /static/uploads/cat-bev.png HTTP/1.1[0m" 404 -
+2026-02-21 19:02:50,927 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "[33mGET /static/uploads/banner1.jpg HTTP/1.1[0m" 404 -
+2026-02-21 19:02:50,927 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "[33mGET /static/uploads/coffee-1.png HTTP/1.1[0m" 404 -
+2026-02-21 19:02:50,930 - 127.0.0.1 - - [21/Feb/2026 19:02:50] "[33mGET /static/uploads/coffee-2.png HTTP/1.1[0m" 404 -
+2026-02-21 19:04:32,791 - 127.0.0.1 - - [21/Feb/2026 19:04:32] "GET / HTTP/1.1" 200 -
+2026-02-21 19:04:32,807 - 127.0.0.1 - - [21/Feb/2026 19:04:32] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-21 19:04:32,809 - 127.0.0.1 - - [21/Feb/2026 19:04:32] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-21 19:04:33,182 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-21 19:04:33,203 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-21 19:04:33,207 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 19:04:33,210 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 19:04:33,239 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "[33mGET /static/uploads/banner1.jpg HTTP/1.1[0m" 404 -
+2026-02-21 19:04:33,242 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "[33mGET /static/uploads/cat-bev.png HTTP/1.1[0m" 404 -
+2026-02-21 19:04:33,244 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "[33mGET /static/uploads/coffee-2.png HTTP/1.1[0m" 404 -
+2026-02-21 19:04:33,247 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "[33mGET /static/uploads/coffee-1.png HTTP/1.1[0m" 404 -
+2026-02-21 19:04:33,249 - 127.0.0.1 - - [21/Feb/2026 19:04:33] "[33mGET /static/uploads/cat-snack.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:29,462 -  * Detected change in '/app/verification/verify_frontend.py', reloading
+2026-02-21 19:05:29,622 -  * Restarting with stat
+2026-02-21 19:05:30,475 -  * Debugger is active!
+2026-02-21 19:05:30,476 -  * Debugger PIN: 410-907-091
+2026-02-21 19:05:34,546 - 127.0.0.1 - - [21/Feb/2026 19:05:34] "GET / HTTP/1.1" 200 -
+2026-02-21 19:05:34,562 - 127.0.0.1 - - [21/Feb/2026 19:05:34] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-21 19:05:34,563 - 127.0.0.1 - - [21/Feb/2026 19:05:34] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-21 19:05:34,957 - 127.0.0.1 - - [21/Feb/2026 19:05:34] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-21 19:05:35,025 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "GET /api/categories HTTP/1.1" 200 -
+2026-02-21 19:05:35,030 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 19:05:35,032 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-21 19:05:35,052 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/cat-bev.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,054 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/coffee-1.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,058 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/coffee-2.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,060 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/cat-snack.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,062 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/banner1.jpg HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,323 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 19:05:35,334 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/coffee-1.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,340 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/coffee-2.png HTTP/1.1[0m" 404 -
+2026-02-21 19:05:35,578 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "GET /api/products HTTP/1.1" 200 -
+2026-02-21 19:05:35,586 - 127.0.0.1 - - [21/Feb/2026 19:05:35] "[33mGET /static/uploads/coffee-1.png HTTP/1.1[0m" 404 -
+2026-02-22 07:24:57,311 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 07:24:57,312 - [33mPress CTRL+C to quit[0m
+2026-02-22 07:24:57,314 -  * Restarting with stat
+2026-02-22 07:24:58,568 -  * Debugger is active!
+2026-02-22 07:24:58,572 -  * Debugger PIN: 410-907-091
+2026-02-22 07:27:13,543 - 127.0.0.1 - - [22/Feb/2026 07:27:13] "GET / HTTP/1.1" 200 -
+2026-02-22 07:27:13,587 - 127.0.0.1 - - [22/Feb/2026 07:27:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:27:13,591 - 127.0.0.1 - - [22/Feb/2026 07:27:13] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:27:14,219 - 127.0.0.1 - - [22/Feb/2026 07:27:14] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:27:14,415 - 127.0.0.1 - - [22/Feb/2026 07:27:14] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:27:14,430 - 127.0.0.1 - - [22/Feb/2026 07:27:14] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:27:14,431 - 127.0.0.1 - - [22/Feb/2026 07:27:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:27:14,673 - 127.0.0.1 - - [22/Feb/2026 07:27:14] "[36mGET /static/js/api.js HTTP/1.1[0m" 304 -
+2026-02-22 07:28:50,079 -  * Detected change in '/app/verification/verify_frontend_features.py', reloading
+2026-02-22 07:28:50,198 -  * Restarting with stat
+2026-02-22 07:28:50,931 -  * Debugger is active!
+2026-02-22 07:28:50,932 -  * Debugger PIN: 410-907-091
+2026-02-22 07:28:54,642 - 127.0.0.1 - - [22/Feb/2026 07:28:54] "GET / HTTP/1.1" 200 -
+2026-02-22 07:28:54,656 - 127.0.0.1 - - [22/Feb/2026 07:28:54] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:28:54,657 - 127.0.0.1 - - [22/Feb/2026 07:28:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:28:55,016 - 127.0.0.1 - - [22/Feb/2026 07:28:55] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:28:55,115 - 127.0.0.1 - - [22/Feb/2026 07:28:55] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:28:55,127 - 127.0.0.1 - - [22/Feb/2026 07:28:55] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:28:55,128 - 127.0.0.1 - - [22/Feb/2026 07:28:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:28:55,295 - 127.0.0.1 - - [22/Feb/2026 07:28:55] "[36mGET /static/js/api.js HTTP/1.1[0m" 304 -
+2026-02-22 07:30:12,677 - 127.0.0.1 - - [22/Feb/2026 07:30:12] "GET / HTTP/1.1" 200 -
+2026-02-22 07:30:12,691 - 127.0.0.1 - - [22/Feb/2026 07:30:12] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:30:12,693 - 127.0.0.1 - - [22/Feb/2026 07:30:12] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:30:13,047 - 127.0.0.1 - - [22/Feb/2026 07:30:13] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:32:02,486 - 127.0.0.1 - - [22/Feb/2026 07:32:02] "GET / HTTP/1.1" 200 -
+2026-02-22 07:32:02,498 - 127.0.0.1 - - [22/Feb/2026 07:32:02] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:32:02,500 - 127.0.0.1 - - [22/Feb/2026 07:32:02] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:32:02,939 - 127.0.0.1 - - [22/Feb/2026 07:32:02] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:32:02,949 - 127.0.0.1 - - [22/Feb/2026 07:32:02] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:32:02,951 - 127.0.0.1 - - [22/Feb/2026 07:32:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:33:55,314 - 127.0.0.1 - - [22/Feb/2026 07:33:55] "GET / HTTP/1.1" 200 -
+2026-02-22 07:33:55,326 - 127.0.0.1 - - [22/Feb/2026 07:33:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:33:55,327 - 127.0.0.1 - - [22/Feb/2026 07:33:55] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:35:12,759 - 127.0.0.1 - - [22/Feb/2026 07:35:12] "GET / HTTP/1.1" 200 -
+2026-02-22 07:35:12,772 - 127.0.0.1 - - [22/Feb/2026 07:35:12] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:35:12,773 - 127.0.0.1 - - [22/Feb/2026 07:35:12] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:35:13,221 - 127.0.0.1 - - [22/Feb/2026 07:35:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:35:13,230 - 127.0.0.1 - - [22/Feb/2026 07:35:13] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:35:13,233 - 127.0.0.1 - - [22/Feb/2026 07:35:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:36:44,441 - 127.0.0.1 - - [22/Feb/2026 07:36:44] "GET / HTTP/1.1" 200 -
+2026-02-22 07:36:44,455 - 127.0.0.1 - - [22/Feb/2026 07:36:44] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:36:44,457 - 127.0.0.1 - - [22/Feb/2026 07:36:44] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:38:14,877 - 127.0.0.1 - - [22/Feb/2026 07:38:14] "GET / HTTP/1.1" 200 -
+2026-02-22 07:38:14,893 - 127.0.0.1 - - [22/Feb/2026 07:38:14] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:38:14,894 - 127.0.0.1 - - [22/Feb/2026 07:38:14] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:38:15,379 - 127.0.0.1 - - [22/Feb/2026 07:38:15] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:38:15,390 - 127.0.0.1 - - [22/Feb/2026 07:38:15] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:38:15,391 - 127.0.0.1 - - [22/Feb/2026 07:38:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:40:11,126 - 127.0.0.1 - - [22/Feb/2026 07:40:11] "GET / HTTP/1.1" 200 -
+2026-02-22 07:40:11,138 - 127.0.0.1 - - [22/Feb/2026 07:40:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:40:11,140 - 127.0.0.1 - - [22/Feb/2026 07:40:11] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:41:38,236 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "GET / HTTP/1.1" 200 -
+2026-02-22 07:41:38,250 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:41:38,251 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:41:38,606 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:41:38,693 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:41:38,702 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:41:38,704 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:41:38,833 - 127.0.0.1 - - [22/Feb/2026 07:41:38] "[36mGET /static/js/api.js HTTP/1.1[0m" 304 -
+2026-02-22 07:43:10,120 - 127.0.0.1 - - [22/Feb/2026 07:43:10] "GET / HTTP/1.1" 200 -
+2026-02-22 07:43:10,133 - 127.0.0.1 - - [22/Feb/2026 07:43:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:43:10,134 - 127.0.0.1 - - [22/Feb/2026 07:43:10] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:43:10,492 - 127.0.0.1 - - [22/Feb/2026 07:43:10] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:44:55,427 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "GET / HTTP/1.1" 200 -
+2026-02-22 07:44:55,440 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:44:55,442 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:44:55,785 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:44:55,871 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:44:55,880 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:44:55,882 - 127.0.0.1 - - [22/Feb/2026 07:44:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:44:56,013 - 127.0.0.1 - - [22/Feb/2026 07:44:56] "[36mGET /static/js/api.js HTTP/1.1[0m" 304 -
+2026-02-22 07:46:39,547 - 127.0.0.1 - - [22/Feb/2026 07:46:39] "GET / HTTP/1.1" 200 -
+2026-02-22 07:46:39,562 - 127.0.0.1 - - [22/Feb/2026 07:46:39] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:46:39,563 - 127.0.0.1 - - [22/Feb/2026 07:46:39] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:46:39,912 - 127.0.0.1 - - [22/Feb/2026 07:46:39] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:47:51,376 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "GET / HTTP/1.1" 200 -
+2026-02-22 07:47:51,389 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:47:51,391 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:47:51,743 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 07:47:51,831 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 07:47:51,842 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 07:47:51,843 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:47:51,973 - 127.0.0.1 - - [22/Feb/2026 07:47:51] "[36mGET /static/js/api.js HTTP/1.1[0m" 304 -
+2026-02-22 07:49:10,880 - 127.0.0.1 - - [22/Feb/2026 07:49:10] "GET / HTTP/1.1" 200 -
+2026-02-22 07:49:10,891 - 127.0.0.1 - - [22/Feb/2026 07:49:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 07:49:10,893 - 127.0.0.1 - - [22/Feb/2026 07:49:10] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 07:49:11,241 - 127.0.0.1 - - [22/Feb/2026 07:49:11] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 08:02:23,650 -  * Detected change in '/app/verification/verify_frontend_features.py', reloading
+2026-02-22 08:02:25,183 -  * Restarting with stat
+2026-02-22 08:02:26,922 -  * Debugger is active!
+2026-02-22 08:02:26,924 -  * Debugger PIN: 410-907-091
+2026-02-22 08:02:34,429 - 127.0.0.1 - - [22/Feb/2026 08:02:34] "GET / HTTP/1.1" 200 -
+2026-02-22 08:02:34,483 - 127.0.0.1 - - [22/Feb/2026 08:02:34] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 08:02:34,487 - 127.0.0.1 - - [22/Feb/2026 08:02:34] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 08:02:35,129 - 127.0.0.1 - - [22/Feb/2026 08:02:35] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 08:02:35,330 - 127.0.0.1 - - [22/Feb/2026 08:02:35] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-22 08:02:35,348 - 127.0.0.1 - - [22/Feb/2026 08:02:35] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 08:02:35,350 - 127.0.0.1 - - [22/Feb/2026 08:02:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-22 08:02:35,606 - 127.0.0.1 - - [22/Feb/2026 08:02:35] "[36mGET /static/js/api.js HTTP/1.1[0m" 304 -
+2026-02-22 08:03:56,103 - 127.0.0.1 - - [22/Feb/2026 08:03:56] "GET / HTTP/1.1" 200 -
+2026-02-22 08:03:56,119 - 127.0.0.1 - - [22/Feb/2026 08:03:56] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-22 08:03:56,122 - 127.0.0.1 - - [22/Feb/2026 08:03:56] "[33mGET /static/uploads/logo.svg HTTP/1.1[0m" 404 -
+2026-02-22 08:03:56,492 - 127.0.0.1 - - [22/Feb/2026 08:03:56] "GET /static/js/api.js HTTP/1.1" 200 -
+2026-02-22 17:00:29,795 - 127.0.0.1 - - [22/Feb/2026 17:00:29] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:00:29,824 - 127.0.0.1 - - [22/Feb/2026 17:00:29] "[31m[1mPOST /api/customer/register HTTP/1.1[0m" 400 -
+2026-02-22 17:00:29,963 - 127.0.0.1 - - [22/Feb/2026 17:00:29] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:00:29,974 - 127.0.0.1 - - [22/Feb/2026 17:00:29] "[31m[1mPOST /api/vendor/register HTTP/1.1[0m" 400 -
+2026-02-22 17:00:30,109 - 127.0.0.1 - - [22/Feb/2026 17:00:30] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:00:30,118 - 127.0.0.1 - - [22/Feb/2026 17:00:30] "[31m[1mPOST /api/delivery/register HTTP/1.1[0m" 400 -
+2026-02-22 17:00:30,254 - 127.0.0.1 - - [22/Feb/2026 17:00:30] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-22 17:00:33,165 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:00:33,176 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "GET /api/categories HTTP/1.1" 200 -
+2026-02-22 17:00:33,229 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:00:33,236 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-22 17:00:33,260 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "PUT /api/products/10 HTTP/1.1" 200 -
+2026-02-22 17:00:33,273 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "DELETE /api/products/10 HTTP/1.1" 200 -
+2026-02-22 17:00:33,278 - 127.0.0.1 - - [22/Feb/2026 17:00:33] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-22 17:00:35,918 - 127.0.0.1 - - [22/Feb/2026 17:00:35] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:00:35,929 - 127.0.0.1 - - [22/Feb/2026 17:00:35] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:00:36,281 - 127.0.0.1 - - [22/Feb/2026 17:00:36] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:00:36,306 - SMS/Email to 1234567890: Your order(s) [9] have been placed successfully.
+2026-02-22 17:00:36,307 - 127.0.0.1 - - [22/Feb/2026 17:00:36] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:00:36,314 - 127.0.0.1 - - [22/Feb/2026 17:00:36] "GET /api/products HTTP/1.1" 200 -
+2026-02-22 17:00:36,319 - 127.0.0.1 - - [22/Feb/2026 17:00:36] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-22 17:00:36,331 - SMS/Email to 1234567890: Your order(s) [10] have been placed successfully.
+2026-02-22 17:00:36,332 - 127.0.0.1 - - [22/Feb/2026 17:00:36] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:00:36,467 - 127.0.0.1 - - [22/Feb/2026 17:00:36] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:02:10,693 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 17:02:10,693 - [33mPress CTRL+C to quit[0m
+2026-02-22 17:02:10,694 -  * Restarting with stat
+2026-02-22 17:02:11,415 -  * Debugger is active!
+2026-02-22 17:02:11,416 -  * Debugger PIN: 410-907-091
+2026-02-22 17:03:41,264 - 127.0.0.1 - - [22/Feb/2026 17:03:41] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:03:41,432 - 127.0.0.1 - - [22/Feb/2026 17:03:41] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-22 17:03:41,568 - 127.0.0.1 - - [22/Feb/2026 17:03:41] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:03:41,712 - 127.0.0.1 - - [22/Feb/2026 17:03:41] "[35m[1mPOST /api/vendor/register HTTP/1.1[0m" 201 -
+2026-02-22 17:03:41,857 - 127.0.0.1 - - [22/Feb/2026 17:03:41] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:03:42,003 - 127.0.0.1 - - [22/Feb/2026 17:03:42] "[35m[1mPOST /api/delivery/register HTTP/1.1[0m" 201 -
+2026-02-22 17:03:42,143 - 127.0.0.1 - - [22/Feb/2026 17:03:42] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-22 17:03:44,720 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:03:44,727 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "GET /api/categories HTTP/1.1" 200 -
+2026-02-22 17:03:44,739 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:03:44,744 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-22 17:03:44,754 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "PUT /api/products/3 HTTP/1.1" 200 -
+2026-02-22 17:03:44,762 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "DELETE /api/products/3 HTTP/1.1" 200 -
+2026-02-22 17:03:44,766 - 127.0.0.1 - - [22/Feb/2026 17:03:44] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-22 17:03:47,332 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:03:47,341 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:03:47,479 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:03:47,497 - SMS/Email to 1234567890: Your order(s) [1] have been placed successfully.
+2026-02-22 17:03:47,497 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:03:47,503 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "GET /api/products HTTP/1.1" 200 -
+2026-02-22 17:03:47,508 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "GET /api/vendor/products HTTP/1.1" 200 -
+2026-02-22 17:03:47,518 - SMS/Email to 1234567890: Your order(s) [2] have been placed successfully.
+2026-02-22 17:03:47,518 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:03:47,714 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:03:47,721 - 127.0.0.1 - - [22/Feb/2026 17:03:47] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-22 17:03:50,300 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:03:50,447 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-22 17:03:50,591 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:03:50,731 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:03:50,740 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:03:50,750 - SMS/Email to 1234567890: Your order(s) [3] have been placed successfully.
+2026-02-22 17:03:50,750 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:03:50,755 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-22 17:03:50,769 - SMS/Email to 1234567890: Your order #3 status has been updated to Accepted.
+2026-02-22 17:03:50,769 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-22 17:03:50,779 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "PUT /api/orders/3/assign HTTP/1.1" 200 -
+2026-02-22 17:03:50,784 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "GET /api/delivery/orders HTTP/1.1" 200 -
+2026-02-22 17:03:50,791 - SMS/Email to 1234567890: Your order #3 status has been updated to Picked Up.
+2026-02-22 17:03:50,792 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "PUT /api/orders/3/status HTTP/1.1" 200 -
+2026-02-22 17:03:50,796 - 127.0.0.1 - - [22/Feb/2026 17:03:50] "GET /api/admin/orders HTTP/1.1" 200 -
+2026-02-22 17:03:51,378 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:03:51,389 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-22 17:03:51,393 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "GET /api/settings HTTP/1.1" 200 -
+2026-02-22 17:03:51,403 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "PUT /api/settings HTTP/1.1" 200 -
+2026-02-22 17:03:51,407 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "GET /api/settings HTTP/1.1" 200 -
+2026-02-22 17:03:51,415 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:03:51,420 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "GET /api/products HTTP/1.1" 200 -
+2026-02-22 17:03:51,427 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "PUT /api/products/5 HTTP/1.1" 200 -
+2026-02-22 17:03:51,431 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "GET /api/products HTTP/1.1" 200 -
+2026-02-22 17:03:51,438 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "DELETE /api/products/5 HTTP/1.1" 200 -
+2026-02-22 17:03:51,443 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "GET /api/admin/products HTTP/1.1" 200 -
+2026-02-22 17:03:51,452 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "[35m[1mPOST /api/blogs HTTP/1.1[0m" 201 -
+2026-02-22 17:03:51,458 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "GET /api/blogs HTTP/1.1" 200 -
+2026-02-22 17:03:51,466 - 127.0.0.1 - - [22/Feb/2026 17:03:51] "DELETE /api/blogs/3 HTTP/1.1" 200 -
+2026-02-22 17:03:54,036 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:03:54,041 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "[31m[1mPOST /api/products HTTP/1.1[0m" 403 -
+2026-02-22 17:03:54,180 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:03:54,189 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:03:54,194 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "[31m[1mPUT /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-22 17:03:54,198 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "[31m[1mDELETE /api/products/5 HTTP/1.1[0m" 403 -
+2026-02-22 17:03:54,339 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-22 17:03:54,350 - SMS/Email to 1234567890: Your order(s) [4] have been placed successfully.
+2026-02-22 17:03:54,351 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:03:54,359 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "PUT /api/orders/4/assign HTTP/1.1" 200 -
+2026-02-22 17:03:54,363 - 127.0.0.1 - - [22/Feb/2026 17:03:54] "[31m[1mPUT /api/orders/4/status HTTP/1.1[0m" 400 -
+2026-02-22 17:03:56,932 - 127.0.0.1 - - [22/Feb/2026 17:03:56] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:03:56,941 - 127.0.0.1 - - [22/Feb/2026 17:03:56] "GET /api/areas HTTP/1.1" 200 -
+2026-02-22 17:03:56,951 - 127.0.0.1 - - [22/Feb/2026 17:03:56] "[35m[1mPOST /api/areas HTTP/1.1[0m" 201 -
+2026-02-22 17:03:56,961 - 127.0.0.1 - - [22/Feb/2026 17:03:56] "PUT /api/areas/3 HTTP/1.1" 200 -
+2026-02-22 17:03:56,967 - 127.0.0.1 - - [22/Feb/2026 17:03:56] "DELETE /api/areas/3 HTTP/1.1" 200 -
+2026-02-22 17:03:59,529 - 127.0.0.1 - - [22/Feb/2026 17:03:59] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:03:59,537 - 127.0.0.1 - - [22/Feb/2026 17:03:59] "GET /api/banners HTTP/1.1" 200 -
+2026-02-22 17:03:59,542 - 127.0.0.1 - - [22/Feb/2026 17:03:59] "GET /api/banners?type=Home HTTP/1.1" 200 -
+2026-02-22 17:03:59,551 - 127.0.0.1 - - [22/Feb/2026 17:03:59] "[35m[1mPOST /api/banners HTTP/1.1[0m" 201 -
+2026-02-22 17:03:59,558 - 127.0.0.1 - - [22/Feb/2026 17:03:59] "DELETE /api/banners/3 HTTP/1.1" 200 -
+2026-02-22 17:04:01,991 - 127.0.0.1 - - [22/Feb/2026 17:04:01] "GET /api/products/nearby?lat=40.7128&long=-74.0060&radius=1 HTTP/1.1" 200 -
+2026-02-22 17:04:01,998 - 127.0.0.1 - - [22/Feb/2026 17:04:01] "GET /api/products/nearby?lat=40.7138&long=-74.0070&radius=1 HTTP/1.1" 200 -
+2026-02-22 17:04:02,003 - 127.0.0.1 - - [22/Feb/2026 17:04:02] "GET /api/products/nearby?lat=34.0522&long=-118.2437&radius=10 HTTP/1.1" 200 -
+2026-02-22 17:04:04,565 - 127.0.0.1 - - [22/Feb/2026 17:04:04] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:04:04,705 - 127.0.0.1 - - [22/Feb/2026 17:04:04] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:04,714 - 127.0.0.1 - - [22/Feb/2026 17:04:04] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:04:04,723 - SMS/Email to 1234567890: Your order(s) [5] have been placed successfully.
+2026-02-22 17:04:04,724 - 127.0.0.1 - - [22/Feb/2026 17:04:04] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:04:04,739 - 127.0.0.1 - - [22/Feb/2026 17:04:04] "GET /api/orders/5/invoice HTTP/1.1" 200 -
+2026-02-22 17:04:04,881 - 127.0.0.1 - - [22/Feb/2026 17:04:04] "[35m[1mPOST /api/customer/register HTTP/1.1[0m" 201 -
+2026-02-22 17:04:05,018 - 127.0.0.1 - - [22/Feb/2026 17:04:05] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:04:05,023 - 127.0.0.1 - - [22/Feb/2026 17:04:05] "[31m[1mGET /api/orders/5/invoice HTTP/1.1[0m" 403 -
+2026-02-22 17:04:07,587 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:07,725 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:04:07,902 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:07,914 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "[35m[1mPOST /api/offers HTTP/1.1[0m" 201 -
+2026-02-22 17:04:07,924 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:04:07,935 - SMS/Email to 1234567890: Your order(s) [6] have been placed successfully.
+2026-02-22 17:04:07,935 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:04:07,940 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "GET /api/customer/orders HTTP/1.1" 200 -
+2026-02-22 17:04:07,945 - 127.0.0.1 - - [22/Feb/2026 17:04:07] "[31m[1mPOST /api/orders HTTP/1.1[0m" 400 -
+2026-02-22 17:04:10,508 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:04:10,645 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:10,785 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-22 17:04:10,794 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:04:10,801 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "[31m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 403 -
+2026-02-22 17:04:10,811 - SMS/Email to 1234567890: Your order(s) [7] have been placed successfully.
+2026-02-22 17:04:10,811 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "[35m[1mPOST /api/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:04:10,819 - SMS/Email to 1234567890: Your order #7 status has been updated to Accepted.
+2026-02-22 17:04:10,820 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-22 17:04:10,956 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "POST /api/delivery/login HTTP/1.1" 200 -
+2026-02-22 17:04:10,966 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "PUT /api/orders/7/assign HTTP/1.1" 200 -
+2026-02-22 17:04:10,974 - SMS/Email to 1234567890: Your order #7 status has been updated to Delivered.
+2026-02-22 17:04:10,974 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "PUT /api/orders/7/status HTTP/1.1" 200 -
+2026-02-22 17:04:10,987 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "[35m[1mPOST /api/products/8/reviews HTTP/1.1[0m" 201 -
+2026-02-22 17:04:10,992 - 127.0.0.1 - - [22/Feb/2026 17:04:10] "GET /api/products/8/reviews HTTP/1.1" 200 -
+2026-02-22 17:04:13,554 - 127.0.0.1 - - [22/Feb/2026 17:04:13] "POST /api/customer/login HTTP/1.1" 200 -
+2026-02-22 17:04:13,699 - 127.0.0.1 - - [22/Feb/2026 17:04:13] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:13,709 - 127.0.0.1 - - [22/Feb/2026 17:04:13] "PUT /api/customer/profile HTTP/1.1" 200 -
+2026-02-22 17:04:13,721 - 127.0.0.1 - - [22/Feb/2026 17:04:13] "PUT /api/vendor/profile HTTP/1.1" 200 -
+2026-02-22 17:04:16,290 - 127.0.0.1 - - [22/Feb/2026 17:04:16] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:16,311 - 127.0.0.1 - - [22/Feb/2026 17:04:16] "GET /api/admin/dashboard HTTP/1.1" 200 -
+2026-02-22 17:04:18,879 - 127.0.0.1 - - [22/Feb/2026 17:04:18] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:18,886 - 127.0.0.1 - - [22/Feb/2026 17:04:18] "GET /api/admin/customers HTTP/1.1" 200 -
+2026-02-22 17:04:18,895 - 127.0.0.1 - - [22/Feb/2026 17:04:18] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-22 17:04:18,903 - 127.0.0.1 - - [22/Feb/2026 17:04:18] "PUT /api/admin/customers/1/status HTTP/1.1" 200 -
+2026-02-22 17:04:21,467 - 127.0.0.1 - - [22/Feb/2026 17:04:21] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:21,473 - 127.0.0.1 - - [22/Feb/2026 17:04:21] "GET /api/admin/vendors HTTP/1.1" 200 -
+2026-02-22 17:04:21,482 - 127.0.0.1 - - [22/Feb/2026 17:04:21] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-22 17:04:21,489 - 127.0.0.1 - - [22/Feb/2026 17:04:21] "PUT /api/admin/vendors/1/approve HTTP/1.1" 200 -
+2026-02-22 17:04:24,045 - 127.0.0.1 - - [22/Feb/2026 17:04:24] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:24,052 - 127.0.0.1 - - [22/Feb/2026 17:04:24] "GET /api/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-22 17:04:24,061 - 127.0.0.1 - - [22/Feb/2026 17:04:24] "PUT /api/admin/pages/privacy-policy HTTP/1.1" 200 -
+2026-02-22 17:04:24,066 - 127.0.0.1 - - [22/Feb/2026 17:04:24] "GET /api/admin/pages HTTP/1.1" 200 -
+2026-02-22 17:04:26,623 - 127.0.0.1 - - [22/Feb/2026 17:04:26] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:26,630 - 127.0.0.1 - - [22/Feb/2026 17:04:26] "GET /api/admin/delivery_boys HTTP/1.1" 200 -
+2026-02-22 17:04:26,641 - 127.0.0.1 - - [22/Feb/2026 17:04:26] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-22 17:04:26,648 - 127.0.0.1 - - [22/Feb/2026 17:04:26] "PUT /api/admin/delivery_boys/1/status HTTP/1.1" 200 -
+2026-02-22 17:04:29,212 - 127.0.0.1 - - [22/Feb/2026 17:04:29] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:29,220 - 127.0.0.1 - - [22/Feb/2026 17:04:29] "[35m[1mPOST /api/products HTTP/1.1[0m" 201 -
+2026-02-22 17:04:29,230 - SMS/Email to 1234567890: Your order(s) [8] have been placed successfully.
+2026-02-22 17:04:29,231 - 127.0.0.1 - - [22/Feb/2026 17:04:29] "[35m[1mPOST /api/vendor/orders HTTP/1.1[0m" 201 -
+2026-02-22 17:04:29,235 - 127.0.0.1 - - [22/Feb/2026 17:04:29] "GET /api/vendor/orders HTTP/1.1" 200 -
+2026-02-22 17:04:31,789 - 127.0.0.1 - - [22/Feb/2026 17:04:31] "POST /api/login HTTP/1.1" 200 -
+2026-02-22 17:04:31,795 - 127.0.0.1 - - [22/Feb/2026 17:04:31] "GET /api/admin/payments HTTP/1.1" 200 -
+2026-02-22 17:04:31,799 - BROADCAST (all): System Maintenance
+2026-02-22 17:04:31,799 - 127.0.0.1 - - [22/Feb/2026 17:04:31] "POST /api/admin/notifications HTTP/1.1" 200 -
+2026-02-22 17:04:31,940 - 127.0.0.1 - - [22/Feb/2026 17:04:31] "[35m[1mPOST /api/admin/users HTTP/1.1[0m" 201 -
+2026-02-22 17:04:34,499 - 127.0.0.1 - - [22/Feb/2026 17:04:34] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:34,505 - 127.0.0.1 - - [22/Feb/2026 17:04:34] "GET /api/vendor/dashboard HTTP/1.1" 200 -
+2026-02-22 17:04:37,065 - 127.0.0.1 - - [22/Feb/2026 17:04:37] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:37,073 - 127.0.0.1 - - [22/Feb/2026 17:04:37] "GET /api/vendor/orders/export HTTP/1.1" 200 -
+2026-02-22 17:04:37,078 - 127.0.0.1 - - [22/Feb/2026 17:04:37] "GET /api/vendor/transactions HTTP/1.1" 200 -
+2026-02-22 17:04:39,652 - 127.0.0.1 - - [22/Feb/2026 17:04:39] "POST /api/vendor/login HTTP/1.1" 200 -
+2026-02-22 17:04:39,685 - 127.0.0.1 - - [22/Feb/2026 17:04:39] "GET /api/vendor/invoices/bulk HTTP/1.1" 200 -
